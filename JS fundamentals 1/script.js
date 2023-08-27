@@ -33,3 +33,35 @@ if(js=='good'){
         **JS is dynamically typed language**
         **typeof(var)**
     */
+
+//declare variables:
+    /*
+        let: if value may change later
+        const: value cannot be changed & we have to initialize
+     */
+
+
+
+//oper
+    /*
+
+    */
+
+//precedence
+    /*
+        0.()
+        1.* /
+        2.- +
+        3.L to R
+        4.comparison(L to R)
+        5.ass (R to L) 
+    */    
+
+//Coding Challenge #1
+
+const mWeight=78, jWeight=92, mHeight=1.69, jHeight=1.95;
+const mBMI=mWeight/(mHeight*mHeight);
+const jBMI=jWeight/(jHeight*jHeight);
+const result=mBMI>jBMI;
+console.log(mBMI,jBMI);
+if(result) alert("M has more BMI");
