@@ -58,10 +58,36 @@ if(js=='good'){
     */    
 
 //Coding Challenge #1
-
+/*
 const mWeight=78, jWeight=92, mHeight=1.69, jHeight=1.95;
 const mBMI=mWeight/(mHeight*mHeight);
 const jBMI=jWeight/(jHeight*jHeight);
 const result=mBMI>jBMI;
 console.log(mBMI,jBMI);
 if(result) alert("M has more BMI");
+*/
+
+
+//type conversion: when user want to change type.
+
+//Number(): changes string to numbers.
+//String(): changes to string
+const inputYear="1991";
+const intYear=Number(inputYear);
+console.log(intYear);
+
+//type coercion: when JS automatically changes.
+console.log(`hey ${inputYear}`);
+//+ triggers String fxn
+//- * / triggers Number fxn
+
+
+//falsy values (5): 0, '', undefined, null, NaN.
+let height; //initialized to undefined
+console.log(height);
+
+
+//== : do typ corehin , loose equality
+//=== : strict equality op , used in real life
+
+
